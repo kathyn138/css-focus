@@ -1,0 +1,116 @@
+body,
+html {
+    height: 100vh;
+    margin: 0
+}
+
+/* ESPURR THE POKEMON */
+.face {
+    background-color: #9f95ae;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+/* eyes */
+.left-eye {
+    position: relative;
+    top: 48px;
+    left: 240px;
+    width: 170px;
+}
+.right-eye {
+    position: absolute;
+    top: 48px;
+    left: 635px;
+}
+
+/* eye details to be used with both eyes */
+.iris {
+    background-color: #77597b;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.pupil {
+    background-color: #514e7b;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    border-radius: 50%;
+}
+.big-shine {
+    background-color: #e3e3e3;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    border-radius: 50%;
+}
+.small-shine {
+    background-color: #ebebeb;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 92px;
+    left: 20px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.eye-reflection {
+    background-color: white;
+    opacity: .3;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 85px;
+    left: 10px;
+    border-radius: 50%;
+}
+
+/* nose */
+.nose {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #29212c;
+    position: relative;
+    left: 512px;
+}
+
+/* mouth area */
+.mouth {
+    width: 200px;
+    position: relative;
+    left: 487px;
+}
+.left-cheek {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 30px;
+    top: 15px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 0 0 #29212c;
+    transform: rotate(-41deg);
+}
+.line {
+    width: 70px;
+    height: 5px;
+    background-color: #29212c;
+}
+.right-cheek {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 70px;
+    bottom: 19px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 0 0 #29212c;
+    transform: rotate(140deg);
+}
